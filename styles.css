@@ -73,3 +73,8 @@ li button {
     cursor: pointer;
     padding: 5px 8px;
 }
+
+li .task-text.completed {
+    text-decoration: line-through;
+    color: grey;
+}
