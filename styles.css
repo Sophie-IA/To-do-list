@@ -78,3 +78,9 @@ li .task-text.completed {
     text-decoration: line-through;
     color: grey;
 }
+
+.task-date {
+    font-size: 0.9em;
+    color: #888;
+    margin-left: 10px;
+}
