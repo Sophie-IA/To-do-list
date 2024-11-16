@@ -42,7 +42,7 @@ function addTaskToDOM(taskText, isCompleted = false, dateAdded = null) {
         const now = new Date();
         dateAdded = `${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
     }
-    taskDate.textContent = ` Added on: ${dateAdded}`;  // Displaying date when the task was added
+    taskDate.textContent = ` ${dateAdded}`;  // Displaying date when the task was added
 
     // Create the delete button
     const deleteButton = document.createElement("button");
